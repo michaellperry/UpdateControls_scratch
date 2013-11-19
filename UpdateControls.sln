@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UpdateControls", "WindowsSt
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UpdateControls.XAML.Test", "WindowsStore\UpdateControls.XAML.Test\UpdateControls.XAML.Test.csproj", "{A1077BA7-8697-4816-8BE9-F26DF8E4198E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UpdateControls", "WPF\UpdateControls\UpdateControls.csproj", "{FEFABF21-E62D-4E4A-A51A-30803EDFA37F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -95,6 +97,16 @@ Global
 		{A1077BA7-8697-4816-8BE9-F26DF8E4198E}.Release|x86.ActiveCfg = Release|x86
 		{A1077BA7-8697-4816-8BE9-F26DF8E4198E}.Release|x86.Build.0 = Release|x86
 		{A1077BA7-8697-4816-8BE9-F26DF8E4198E}.Release|x86.Deploy.0 = Release|x86
+		{FEFABF21-E62D-4E4A-A51A-30803EDFA37F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEFABF21-E62D-4E4A-A51A-30803EDFA37F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEFABF21-E62D-4E4A-A51A-30803EDFA37F}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{FEFABF21-E62D-4E4A-A51A-30803EDFA37F}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{FEFABF21-E62D-4E4A-A51A-30803EDFA37F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{FEFABF21-E62D-4E4A-A51A-30803EDFA37F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEFABF21-E62D-4E4A-A51A-30803EDFA37F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEFABF21-E62D-4E4A-A51A-30803EDFA37F}.Release|ARM.ActiveCfg = Release|Any CPU
+		{FEFABF21-E62D-4E4A-A51A-30803EDFA37F}.Release|x64.ActiveCfg = Release|Any CPU
+		{FEFABF21-E62D-4E4A-A51A-30803EDFA37F}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -104,5 +116,6 @@ Global
 		{B107C9D8-0F56-4923-BDDD-92653EC82E5A} = {0448634F-FB61-438A-A6F3-0144866310AF}
 		{6D17230D-75E8-41D5-B26C-6AD517E769FB} = {A34BDF05-E14A-4E68-90F3-ECFCE2B17A19}
 		{A1077BA7-8697-4816-8BE9-F26DF8E4198E} = {A34BDF05-E14A-4E68-90F3-ECFCE2B17A19}
+		{FEFABF21-E62D-4E4A-A51A-30803EDFA37F} = {72330116-FA55-4857-B4F4-D78400BD506E}
 	EndGlobalSection
 EndGlobal
