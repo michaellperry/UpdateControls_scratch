@@ -72,7 +72,6 @@
     <Compile Include="Collections\IndependentDictionary.cs" />
     <Compile Include="Collections\IndependentList.cs" />
     <Compile Include="Dependent.cs" />
-    <Compile Include="Dependent.CurrentUpdate.cs" />
     <Compile Include="Fields\Dependent.cs" />
     <Compile Include="Fields\Independent.cs" />
     <Compile Include="Independent.cs" />
