@@ -2,6 +2,6 @@
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-[assembly: AssemblyTitle("UpdateControls")]
-[assembly: AssemblyProduct("UpdateControls")]
+[assembly: AssemblyTitle("UpdateControls.XAML")]
+[assembly: AssemblyProduct("UpdateControls.XAML")]
 [assembly: ComVisible(false)]

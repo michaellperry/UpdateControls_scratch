@@ -41,6 +41,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="..\..\Common\CommonProperties.cs">
+      <Link>Properties\CommonProperties.cs</Link>
+    </Compile>
     <Compile Include="Delegates.cs" />
     <Compile Include="GuiUpdateHelper.cs" />
     <Compile Include="IEnabledControl.cs" />
