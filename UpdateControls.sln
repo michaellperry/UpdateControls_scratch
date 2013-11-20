@@ -19,11 +19,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UpdateControls", "Portable\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UpdateControls.Test", "Portable\UpdateControls.Test\UpdateControls.Test.csproj", "{B107C9D8-0F56-4923-BDDD-92653EC82E5A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UpdateControls", "WindowsStore\UpdateControls\UpdateControls.csproj", "{6D17230D-75E8-41D5-B26C-6AD517E769FB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UpdateControls.XAML", "WindowsStore\UpdateControls.XAML\UpdateControls.XAML.csproj", "{6D17230D-75E8-41D5-B26C-6AD517E769FB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UpdateControls.XAML.Test", "WindowsStore\UpdateControls.XAML.Test\UpdateControls.XAML.Test.csproj", "{A1077BA7-8697-4816-8BE9-F26DF8E4198E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UpdateControls.Test.App", "WindowsStore\UpdateControls.Test.App\UpdateControls.Test.App.csproj", "{A1077BA7-8697-4816-8BE9-F26DF8E4198E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UpdateControls", "WPF\UpdateControls\UpdateControls.csproj", "{FEFABF21-E62D-4E4A-A51A-30803EDFA37F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UpdateControls.XAML", "WPF\UpdateControls.XAML\UpdateControls.XAML.csproj", "{FEFABF21-E62D-4E4A-A51A-30803EDFA37F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UpdateControls.Forms", "WindowsForms\UpdateControls.Forms\UpdateControls.Forms.csproj", "{A559D316-B196-4469-9B83-83682CB5F55D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -107,6 +109,16 @@ Global
 		{FEFABF21-E62D-4E4A-A51A-30803EDFA37F}.Release|ARM.ActiveCfg = Release|Any CPU
 		{FEFABF21-E62D-4E4A-A51A-30803EDFA37F}.Release|x64.ActiveCfg = Release|Any CPU
 		{FEFABF21-E62D-4E4A-A51A-30803EDFA37F}.Release|x86.ActiveCfg = Release|Any CPU
+		{A559D316-B196-4469-9B83-83682CB5F55D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A559D316-B196-4469-9B83-83682CB5F55D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A559D316-B196-4469-9B83-83682CB5F55D}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{A559D316-B196-4469-9B83-83682CB5F55D}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{A559D316-B196-4469-9B83-83682CB5F55D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A559D316-B196-4469-9B83-83682CB5F55D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A559D316-B196-4469-9B83-83682CB5F55D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A559D316-B196-4469-9B83-83682CB5F55D}.Release|ARM.ActiveCfg = Release|Any CPU
+		{A559D316-B196-4469-9B83-83682CB5F55D}.Release|x64.ActiveCfg = Release|Any CPU
+		{A559D316-B196-4469-9B83-83682CB5F55D}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -117,5 +129,6 @@ Global
 		{6D17230D-75E8-41D5-B26C-6AD517E769FB} = {A34BDF05-E14A-4E68-90F3-ECFCE2B17A19}
 		{A1077BA7-8697-4816-8BE9-F26DF8E4198E} = {A34BDF05-E14A-4E68-90F3-ECFCE2B17A19}
 		{FEFABF21-E62D-4E4A-A51A-30803EDFA37F} = {72330116-FA55-4857-B4F4-D78400BD506E}
+		{A559D316-B196-4469-9B83-83682CB5F55D} = {9642FAB5-5A0E-43D1-B212-D3EBA2940FB2}
 	EndGlobalSection
 EndGlobal
